@@ -1,0 +1,92 @@
+.iconClose {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+.wrap {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.wrap-login-section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.login-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 19px;
+}
+input {
+  height: 47px;
+  padding-left: 13px;
+}
+.input-name {
+  margin-bottom: 11px;
+}
+.checkbox-one {
+  margin-right: 20px;
+}
+.forgot-password {
+  color: #545454;
+  font-weight: 300;
+}
+.wrap-checkbox span {
+  font-size: 14px;
+}
+.submit {
+  background-color: black;
+  border-radius: 5px;
+  height: 47px;
+  color: #fff;
+}
+.signup-text {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-bottom: 22px;
+  font-weight: 200;
+}
+.social-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.wrap-social {
+  font-size: 13px;
+  color: #413725;
+}
+.guest-section {
+  margin: 44px 0;
+  background-color: #fff4dd;
+  padding: 43px 5px;
+}
+.guest-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.join-as-member {
+  background-color: #ffbb53;
+  width: 130px;
+  height: 42px;
+  border-radius: 23px;
+  margin-top: 15px;
+}
+
+.guest-form {
+  padding: 0 21px;
+}
+
+.guest-form-title {
+  font-size: 16px;
+}
+.input-order {
+  margin: 12px 0;
+}
+.submit-form {
+  background-color: #eee;
+  color: #999;
+  border-radius: 5px;
+  height: 47px;
+}

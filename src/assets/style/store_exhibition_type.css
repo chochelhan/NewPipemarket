@@ -1,0 +1,14 @@
+.gallery-section-exhibition{
+    background-color: white;
+    border-radius: 20px;
+}
+.list-gallery-section-exhibition{
+    background-color: #f1f1f1;
+    padding: 25px 15px;
+}
+.list-gallery-section-exhibition .calendar{
+    margin: 12px 0;
+}
+.gallery-section-exhibition .banner{
+    margin-bottom: 0;
+}

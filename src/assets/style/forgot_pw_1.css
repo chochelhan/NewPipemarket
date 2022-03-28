@@ -1,0 +1,61 @@
+.wrap {
+  padding: 30px 20px 0 20px;
+  min-height: calc(100vh - 53px);
+}
+
+.label-input {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.email-input {
+  margin-top: 16px;
+  padding: 12px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.button-find {
+  border-radius: 5px;
+  margin-top: 12px;
+  padding: 12px 0;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: #808080;
+  font-size: 15px;
+}
+
+.submit-authenticate {
+  margin: 10px 0 25px 0;
+  padding: 16px 0;
+  cursor: pointer;
+  background-color: #ffbb53;
+  border-radius: 27.5px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.option {
+  margin-top: 12px;
+  padding: 20px;
+}
+
+.option-selected {
+  border-color: #010101;
+}
+
+.method-type {
+  font-size: 15px;
+  font-weight: bold;
+  color: #111;
+}
+
+.method-content {
+  font-size: 13px;
+  color: #696969;
+}

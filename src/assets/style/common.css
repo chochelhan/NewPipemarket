@@ -1,0 +1,166 @@
+.card-list {
+  padding: 35px 20px;
+  background-color: #ededed;
+  /* margin-bottom: 40px; */
+}
+
+.store-card {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+
+.card-img {
+  height: 191px;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-sub-title {
+  font-size: 13px;
+  color: #555;
+}
+
+.card-title {
+  font-size: 23px;
+  color: #000;
+  font-weight: bold;
+}
+
+.card-description {
+  font-size: 13px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.card-time {
+}
+
+.card-time p {
+  margin-left: 10px;
+  font-size: 13px;
+  color: #000;
+}
+
+.card-boxes {
+  margin-top: 10px;
+}
+
+.card-box {
+  width: 66px;
+  height: 66px;
+  background-color: blue;
+  margin-right: 10px;
+}
+
+.carousel-open:checked + .carousel-item {
+  position: static;
+  opacity: 100;
+}
+
+.carousel-item {
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+  display: block;
+}
+
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+#carousel-1:checked
+  ~ .control-1
+  ~ .carousel-indicators
+  li:nth-child(1)
+  .carousel-bullet,
+#carousel-2:checked
+  ~ .control-2
+  ~ .carousel-indicators
+  li:nth-child(2)
+  .carousel-bullet,
+#carousel-3:checked
+  ~ .control-3
+  ~ .carousel-indicators
+  li:nth-child(3)
+  .carousel-bullet {
+  color: #2b6cb0;
+  /*Set to match the Tailwind colour you want the active one to be */
+}
+.banner-count {
+  position: absolute;
+  right: 11px;
+  bottom: 11px;
+}
+.wrap-number {
+  background-color: #8c867c;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 16px;
+  opacity: 0.8;
+  margin-right: 10px;
+}
+.banner-count .wrap-icon {
+  background-color: #8c867c;
+  opacity: 0.8;
+  color: white;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-22 {
+  font-size: 22px;
+}
+
+.text-17 {
+  font-size: 17px;
+}
+
+.text-15 {
+  font-size: 15px;
+}
+
+.text-13 {
+  font-size: 13px;
+}
+
+.text-11 {
+  font-size: 11px;
+}
+
+.text-10 {
+  font-size: 10px;
+}
+
+.text-9 {
+  font-size: 9px;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+textarea::-webkit-resizer {
+  display: none;
+}

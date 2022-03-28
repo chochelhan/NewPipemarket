@@ -1,0 +1,49 @@
+.button-back {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+
+.story {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mask {
+  height: 50vh;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(#00000000, #000);
+  opacity: 50%;
+  z-index: 2;
+}
+
+.content {
+  position: fixed;
+  z-index: 3;
+  bottom: 38px;
+  right: 20px;
+  left: 20px;
+  color: #fff;
+}
+
+.product-info {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 22px;
+  padding: 0 8px;
+}
+
+.button-read-more {
+  margin-top: 14px;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  padding: 14px 0;
+  text-align: center;
+  cursor: pointer;
+}

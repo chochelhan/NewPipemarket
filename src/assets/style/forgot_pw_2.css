@@ -1,0 +1,57 @@
+.wrap {
+  padding: 30px 20px 0 20px;
+  min-height: calc(100vh - 53px);
+}
+
+.label-input {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.otp-input {
+  margin-top: 16px;
+  padding: 12px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.remaining-time {
+  position: absolute;
+  top: 32px;
+  right: 14px;
+  font-size: 13px;
+  color: #ff1414;
+}
+
+.button-resend {
+  padding: 7px 14px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  font-size: 13px;
+  color: #808080;
+  cursor: pointer;
+}
+
+.button-resend-active {
+  padding: 7px 14px;
+  border-radius: 5px;
+  background-color: #000;
+  font-size: 13px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit {
+  margin: 10px 0 25px 0;
+  padding: 16px 0;
+  cursor: pointer;
+  background-color: #ffbb53;
+  border-radius: 27.5px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}

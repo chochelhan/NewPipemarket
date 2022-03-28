@@ -1,0 +1,76 @@
+.menu {
+  padding: 0 29px 0 14px;
+  font-family: 'Noto Sans';
+}
+
+.menu .menu-item {
+  padding: 20px 0 14px 0;
+}
+
+.menu-item-active {
+  border-bottom: 2px solid #000;
+}
+
+.button-close {
+  margin-top: 60px;
+}
+
+.username-section {
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: bold;
+}
+.welcome-section {
+  font-size: 15px;
+  line-height: 27px;
+}
+.category-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.list-subcategory {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+}
+
+.subcategory-name {
+  color: #727272;
+  font-size: 14px;
+}
+
+.connect-kakao {
+  margin: 18px 0;
+  padding: 11px 0;
+  background-color: #fdecc9;
+  border-radius: 20px;
+}
+
+.label-kakao {
+  font-size: 12px;
+  font-weight: 500;
+  color: #734015;
+  margin-left: 5px;
+}
+
+.category {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.category-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */
+  transform: rotate(90deg);
+}
+
+.subcategory {
+  display: none;
+}
+.active {
+  display: block;
+}

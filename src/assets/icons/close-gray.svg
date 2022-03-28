@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.027" height="14.007" viewBox="0 0 14.027 14.007">
+  <g id="card_cancel" transform="translate(-0.488 -0.5)" opacity="0.25">
+    <path id="Path" d="M.567,0A.565.565,0,0,0,.173.97L5.7,6.5.173,12.028a.565.565,0,1,0,.8.8L6.5,7.3l5.529,5.529a.565.565,0,1,0,.8-.8L7.3,6.5,12.827.97a.565.565,0,1,0-.8-.8L6.5,5.7.971.171A.565.565,0,0,0,.567,0Z" transform="translate(1 1)" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

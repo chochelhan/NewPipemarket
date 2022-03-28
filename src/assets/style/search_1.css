@@ -1,0 +1,50 @@
+.search-input {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  font-size: 15px;
+  padding-left: 16px;
+  padding-right: 35px;
+}
+
+.text-remove {
+  position: absolute;
+  display: block;
+  top: 14px;
+  right: 14px;
+}
+
+.label-history {
+  font-size: 18px;
+  font-weight: bold;
+  color: #111;
+}
+
+.clear-history {
+  font-size: 12px;
+  color: #8f8f8f;
+}
+
+.search-result {
+  margin-top: 12px;
+  color: #8f8f8f;
+}
+
+.keyword-search {
+  margin-left: 8px;
+  font-size: 15px;
+}
+
+.date-search {
+  margin-right: 10px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.item-history {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 4px 14px;
+  color: #777;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <circle id="vxoxo8uwsa" cx="18" cy="18" r="14"/>
+        <mask id="yd8e5r2r6b" width="28" height="28" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+            <use xlink:href="#vxoxo8uwsa"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-152.000000, -248.000000) translate(152.000000, 248.000000)">
+                <circle cx="18" cy="18" r="18" fill="#FFBB53"/>
+                <use stroke="#FFF" stroke-dasharray="2" stroke-width="2" mask="url(#yd8e5r2r6b)" xlink:href="#vxoxo8uwsa"/>
+                <text fill="#FFF" font-family="Futura-Bold, Futura" font-size="16" font-weight="bold">
+                    <tspan x="13.076" y="24">P</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

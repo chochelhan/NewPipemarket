@@ -1,0 +1,38 @@
+.search-input {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  font-size: 15px;
+  padding-left: 16px;
+  padding-right: 35px;
+}
+
+.label-history {
+  font-size: 18px;
+  font-weight: bold;
+  color: #111;
+}
+
+.clear-history {
+  font-size: 12px;
+  color: #8f8f8f;
+}
+
+.search-result {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 38px 0;
+  border: 1px dashed #dcdcdc;
+  border-radius: 5px;
+  color: #8f8f8f;
+}
+
+.item-history {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 4px 14px;
+  color: #777;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}

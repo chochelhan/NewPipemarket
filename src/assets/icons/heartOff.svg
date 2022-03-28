@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="34" viewBox="0 0 37 34">
+    <defs>
+        <filter id="v5ptnxkyta" width="156.8%" height="161.8%" x="-28.4%" y="-30.9%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2.5"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero" stroke="#FFF" stroke-width="1.815">
+            <g>
+                <g filter="url(#v5ptnxkyta)" transform="translate(-149.000000, -863.000000) translate(16.000000, 728.000000) translate(133.000000, 135.000000)">
+                    <path d="M10.502 10.473c-2.004 1.963-2.001 5.106 0 7.07l7.305 7.181c.179.176.428.276.688.276.26 0 .508-.1.687-.276 2.44-2.39 4.876-4.782 7.315-7.172 2.004-1.962 2.004-5.107 0-7.07-2.003-1.962-5.33-1.962-7.334 0l-.664.65-.663-.659C16.834 9.492 15.497 9 14.164 9c-1.333 0-2.66.492-3.662 1.473z"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

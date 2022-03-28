@@ -1,0 +1,164 @@
+header {
+  width:100%;
+  max-width:500px;
+  margin:auto;
+  padding-top:60px;
+}
+.header {
+  max-width:500px;
+  padding: 20px 20px;
+  position: fixed;
+  top: 0;
+  left:0;
+  width:100%;
+  background-color: #fff;
+  height:62px;
+  z-index: 10;
+  box-shadow: 0 8px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+.cartIcon {
+  margin-left: 20px;
+  height: 21px;
+  width: 19px;
+  margin-top: -2px;
+}
+.searchIcon {
+  width: 19px;
+  height: 18px;
+}
+.hamburgerIcon {
+  height: 15px;
+  width: 17px;
+  margin-left: 20px;
+  margin-top: 3px;
+}
+
+.logo {
+  height: 22px;
+  width: 85px;
+}
+.wrapNumber {
+  width: 17px;
+  height: 17px;
+  background-color: #fb5200;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  position: absolute;
+  top: -8px;
+  right: -9px;
+}
+.number {
+  color: #fff;
+  font-size: 10px;
+}
+.wrapCart {
+  position: relative;
+}
+
+.modal {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 87%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 20px 0 0 20px;
+  padding: 0 26px;
+  overflow-y: scroll;
+}
+
+.button-close {
+  margin-top: 60px;
+}
+
+.username-section {
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: bold;
+}
+.welcome-section {
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.modal-menu .menu-item {
+  font-size: 13px;
+  color: #333;
+}
+
+.category-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.list-subcategory {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+}
+
+.subcategory-name {
+  color: #727272;
+}
+
+.connect-kakao {
+  margin: 18px 0;
+  padding: 11px 0;
+  background-color: #fdecc9;
+  border-radius: 20px;
+}
+
+.label-kakao {
+  font-size: 12px;
+  font-weight: 500;
+  color: #734015;
+  margin-left: 5px;
+}
+
+.category {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.category-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */
+  transform: rotate(90deg);
+}
+
+.subcategory {
+  display: none;
+}
+.active {
+  display: block;
+}
+
+
+@media only all and (min-width: 500px) {
+  .header {
+    min-width:500px;
+    margin-left:calc((100vw /2) - 260px);
+    background-color: #fff;
+
+
+  }
+
+}

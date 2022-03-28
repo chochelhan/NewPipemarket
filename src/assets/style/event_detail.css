@@ -1,0 +1,12 @@
+.wrap-event-detail img {
+  aspect-ratio: 1/2;
+}
+.wrap-btn button {
+  height: 50px;
+  width: 90%;
+  background: #ffbe66;
+  border-radius: 25px;
+}
+.wrap-btn {
+  padding: 23px 35px;
+}

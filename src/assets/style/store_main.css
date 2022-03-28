@@ -1,0 +1,274 @@
+.menu {
+  padding: 0 25px;
+  overflow-x: scroll;
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: column;
+  column-gap: 25px;
+  height: 60px;
+}
+
+.menu .menu-item {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #555;
+}
+
+.menu-item-active {
+  border-bottom: 2px solid #000;
+  color: #000 !important;
+}
+
+.menu-title-active {
+  font-weight: 600;
+}
+
+.carousel-open:checked + .carousel-item {
+  position: static;
+  opacity: 100;
+}
+
+.carousel-item {
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+  display: block;
+}
+
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+#carousel-1:checked
+  ~ .control-1
+  ~ .carousel-indicators
+  li:nth-child(1)
+  .carousel-bullet,
+#carousel-2:checked
+  ~ .control-2
+  ~ .carousel-indicators
+  li:nth-child(2)
+  .carousel-bullet,
+#carousel-3:checked
+  ~ .control-3
+  ~ .carousel-indicators
+  li:nth-child(3)
+  .carousel-bullet {
+  color: #2b6cb0;
+  /*Set to match the Tailwind colour you want the active one to be */
+}
+.banner-count {
+  position: absolute;
+  right: 11px;
+  bottom: 11px;
+}
+.wrap-number {
+  background-color: #8c867c;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 16px;
+  opacity: 0.8;
+  margin-right: 10px;
+}
+.banner-count .wrap-icon {
+  background-color: #8c867c;
+  opacity: 0.8;
+  color: white;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.category-section {
+  padding: 45px 16px;
+}
+.category-section-title {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+.category-item {
+  padding: 5px 14px;
+  border: 1px solid #777;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-bottom: 12px;
+  color: #777;
+  font-size: 13px;
+  border-color: #ccc;
+}
+.wrap-category-item {
+  margin: 25px 0;
+}
+.wrap-cate-img {
+  position: relative;
+  width: 109px;
+  height: 109px;
+}
+.wrap-cate-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap-best-seller {
+  border-top: 1px solid #eee;
+  padding: 50px 0px 10px 0px;
+  margin-top: 45px;
+}
+
+.best-seller-list {
+  overflow-x: scroll;
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: column;
+  column-gap: 25px;
+}
+
+.wrap-best-seller .title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.product-discount {
+  color: #d80c0c;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.product-price {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.product-original-price {
+  font-size: 12px;
+  color: #999;
+  text-decoration-line: line-through;
+}
+
+.product-rate {
+  margin-left: 3px;
+  font-size: 11px;
+  color: #6e6e6e;
+}
+.wrap-post {
+  width: 144px;
+}
+.img-post {
+  width: 100%;
+  height: 144px;
+}
+.banner-img {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 50px;
+  background-color: #eee;
+}
+.gallery-section {
+  margin-bottom: 35px;
+}
+
+.list-gallery-section {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.list-gallery-section .title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.gallery-section .banner {
+  width: 100%;
+  height: 190px;
+  margin: 20px 0;
+  border-radius: 20px;
+}
+.gallery-section .title-post-1 {
+  color: #555;
+  font-size: 13px;
+}
+
+.gallery-section .title-post-2 {
+  color: #333;
+  font-weight: 600;
+  font-size: 23px;
+  margin: 9px 0;
+}
+
+.post-relate-list {
+  overflow-x: scroll;
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: column;
+  column-gap: 11px;
+  margin-top: 17px;
+}
+
+.post-relate-img {
+  width: 66px;
+  height: 66px;
+  background: #eee;
+}
+
+.post-relate-list img {
+  width: 66px;
+  height: 66px;
+}
+
+.other-post-title {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #737373;
+}
+.footer-store {
+  padding: 20px;
+  border-top: 1px solid #eee;
+  padding-bottom: 100px;
+}
+.footer-store p {
+  color: #888;
+  font-size: 12px;
+}
+
+.policy {
+  margin-bottom: 20px;
+}
+
+.info-sale {
+  margin-top: 20px;
+}
+
+.scroll-up {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #949494;
+  background-color: white;
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+}
+.scroll-up i {
+  font-size: 18px;
+}

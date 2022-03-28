@@ -1,0 +1,17 @@
+1.node 설치
+2. vue-cli 설치 (5.xxx 버전 이하)
+3. 압축을 푼후 압축을 푼 최상위 경로로 이동 
+1) npm instll 
+ npm run serve (로컬에서 실행시)
+
+4. 배포
+ npm run build 실행후 
+dist 폴더확인 
+dist 내부의 파일을 서버로 이동
+css -> front/application/www/css
+img -> front/application/www/img
+js  ->front/application/www/js
+index.html 파일의 내용을 복사한 후에 front/application/www/index.view.php 에 붙여넣기 한다
+ 
+
+

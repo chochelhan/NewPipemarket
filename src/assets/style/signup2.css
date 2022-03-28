@@ -1,0 +1,39 @@
+.header {
+  padding: 17px 20px;
+}
+.title-header {
+  font-size: 18px;
+  margin-left: 7px;
+}
+.wrap {
+  padding: 19px;
+  position: relative;
+}
+.signup-text-guide {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 24px;
+}
+.wrap-check {
+  background-color: #ddd;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.btn-register {
+  border-radius: 27px;
+  background-color: black;
+  height: 55px;
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+  margin-bottom: 20px;
+}
+.input-email {
+  height: 47px;
+  padding: 13px;
+}
